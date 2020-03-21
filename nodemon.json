@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "__tests__/**/*.(spec|test).ts"
+  ],
+  "quiet": true,
+  "exec": "NODE_ENV=local ts-node -r tsconfig-paths/register src/index.ts"
+}

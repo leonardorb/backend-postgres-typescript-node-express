@@ -1,0 +1,63 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "max-line-length": [
+      true,
+      {
+        "limit": 120,
+        "ignore-pattern": "^import |^export {(.*?)}",
+        "check-strings": true,
+        "check-regex": true
+      }
+    ],
+    "no-empty": [
+      true,
+      "allow-empty-functions"
+    ],
+    "object-literal-sort-keys": [
+      true
+    ],
+    "ordered-imports": [
+      true
+    ],
+    "prettier": [
+      true,
+      {
+        "printWidth": 120,
+        "semi": false,
+        "singleQuote": true,
+        "trailingComma": "all"
+      }
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "trailing-comma": [
+      true
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "interface-over-type-literal": [
+      false
+    ]
+  },
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts"
+    ]
+  }
+}
