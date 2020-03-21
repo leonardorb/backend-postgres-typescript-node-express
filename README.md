@@ -14,10 +14,10 @@ This repo is a boilerplate project starter built with TypeScript for a PostgreSQ
 
 ## Highlights
 
-- [PostgreSQL Audit Trail]()
+- [PostgreSQL Audit Trail](https://github.com/leonardorb/backend-postgres-typescript-node-express/blob/master/src/packages/database/helpers/installDatabaseAudit.ts)
 - Test Coverage
 ![](https://leo.d.pr/kmVY0g+)
-- [Decorators and more]()
+- [Decorators and more](https://github.com/leonardorb/backend-postgres-typescript-node-express/blob/master/src/packages/database/models/user.ts)
 
 
 ## Folders / Files Structure
