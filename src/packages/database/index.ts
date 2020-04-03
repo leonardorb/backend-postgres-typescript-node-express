@@ -3,7 +3,7 @@ import { Connection, createConnection } from 'typeorm'
 
 let connection: Connection
 
-export async function getConnection() {
+export async function getConnection(): Promise<Connection> {
   if (connection) {
     return connection
   }
@@ -13,7 +13,7 @@ export async function getConnection() {
   return connection
 }
 
-export async function closeConnection() {
+export async function closeConnection(): Promise<void> {
   if (connection) {
     return connection.close()
   }

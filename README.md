@@ -1,4 +1,4 @@
-# PostgreSQL, TypeScript,  Node.js and Express.js Stack
+# PostgreSQL, TypeScript, Node.js and Express.js Stack
 
 ## Overview
 
@@ -16,9 +16,8 @@ This repo is a boilerplate project starter built with TypeScript for a PostgreSQ
 
 - [PostgreSQL Audit Trail](https://github.com/leonardorb/backend-postgres-typescript-node-express/blob/master/src/packages/database/helpers/installDatabaseAudit.ts)
 - Test Coverage
-![](https://leo.d.pr/kmVY0g+)
+  ![](https://leo.d.pr/kmVY0g+)
 - [Decorators and more](https://github.com/leonardorb/backend-postgres-typescript-node-express/blob/master/src/packages/database/models/user.ts)
-
 
 ## Folders / Files Structure
 
@@ -78,4 +77,5 @@ SERVER_PORT=""
 ![](https://leo.d.pr/CYYAre+)
 
 ### License
-This project is open-sourced software licensed under the [MIT license](https://github.com/busayo/meanmap/blob/master/LICENSE).
+
+This project is an open-sourced software licensed under the [MIT license](https://github.com/busayo/meanmap/blob/master/LICENSE).
