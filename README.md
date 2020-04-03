@@ -64,15 +64,15 @@ SERVER_PORT=""
 
 ## Setup
 
-1. Create a local `app` database. `$ createdb app_local;` (audit is currently mapped to it **TODO**)
-2. Create a `.env.local` file on the root of the project based on `.env.example`
+1. Create a `.env.local` file on the root of the project based on `.env.example`
+2. Create a local `app` database. `$ createdb <DB_NAME>;`
 3. Execute `$ npm run setup:local`
 4. Start the development server running `$ npm run dev`
 
 ## Running Tests
 
-1. Create a test `app` database. `$ createdb app_test;` (audit is currently mapped to it **TODO**)
-2. Create a `.env.test` file on the root of the project based on `.env.example`
+1. Create a `.env.test` file on the root of the project based on `.env.example`
+2. Create a test `app` database. `$ createdb <DB_NAME>;`
 3. Execute `$ npm run setup:test`
 4. Run `$ npm test`
 
