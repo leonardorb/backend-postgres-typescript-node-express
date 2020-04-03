@@ -74,7 +74,7 @@ SERVER_PORT=""
 2. Execute `npm run setup:test`
 3. Run `npm test`
 
-![](https://leo.d.pr/CYYAre+)
+![](https://leo.d.pr/zRCRhO+)
 
 ### License
 
