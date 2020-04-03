@@ -5,5 +5,6 @@ export class SetDatabaseTimezoneToUTC1582755522303 implements MigrationInterface
     await queryRunner.query(`set timezone = 'utc';`)
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   public async down(queryRunner: QueryRunner): Promise<any> {}
 }

@@ -6,5 +6,6 @@ export class InstallDatabaseAudit1582815723334 implements MigrationInterface {
     await queryRunner.query(auditSQL)
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
   public async down(queryRunner: QueryRunner): Promise<any> {}
 }

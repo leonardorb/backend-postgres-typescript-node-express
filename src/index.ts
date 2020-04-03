@@ -6,7 +6,7 @@ import server from './server'
 
 const PORT = config.SERVER_PORT || '3000'
 
-async function onStart() {
+async function onStart(): Promise<any> {
   try {
     await getConnection()
   } catch (err) {

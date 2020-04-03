@@ -16,5 +16,6 @@ export class CreateDatabaseSchema1582816030292 implements MigrationInterface {
     `)
   }
 
-  public async down(queryRunner: QueryRunner): Promise<any> { }
+  // eslint-disable-next-line @typescript-eslint/no-empty-function
+  public async down(queryRunner: QueryRunner): Promise<any> {}
 }

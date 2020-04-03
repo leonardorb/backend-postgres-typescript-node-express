@@ -3,7 +3,8 @@ import { Server } from 'http'
 declare global {
   namespace NodeJS {
     interface Global {
-      __appServer__: Server,
+      // eslint-disable-next-line @typescript-eslint/member-delimiter-style
+      __appServer__: Server
     }
   }
   // namespace jest {

@@ -4,7 +4,7 @@
   "description": "Backend TypeScript PERN Stack",
   "scripts": {
     "dev": "nodemon",
-    "lint": "tslint --project .",
+    "lint": "eslint . --ext .ts",
     "migration:create": "NODE_ENV=local npm run typeorm -- migration:create -n",
     "setup:local": "NODE_ENV=local npm run typeorm -- migration:run",
     "setup:test": "NODE_ENV=test npm run typeorm -- migration:run",
