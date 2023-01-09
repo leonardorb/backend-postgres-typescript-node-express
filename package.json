@@ -25,7 +25,7 @@
     "http-status": "1.4.2",
     "morgan": "1.10.0",
     "passport": "0.4.1",
-    "passport-jwt": "4.0.0",
+    "passport-jwt": "4.0.1",
     "pg": "8.3.3",
     "reflect-metadata": "0.1.13",
     "typeorm": "0.2.25",
