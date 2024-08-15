@@ -28,7 +28,7 @@
     "passport-jwt": "4.0.0",
     "pg": "8.3.3",
     "reflect-metadata": "0.1.13",
-    "typeorm": "0.2.25",
+    "typeorm": "0.3.0",
     "winston": "3.3.3"
   },
   "devDependencies": {
